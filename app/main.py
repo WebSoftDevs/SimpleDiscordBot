@@ -3,10 +3,6 @@ import os
 from discord.ext import commands
 import logging
 from os import listdir
-from dotenv import load_dotenv, find_dotenv
-
-
-load_dotenv(find_dotenv())
 
 
 class Client(commands.Bot):
